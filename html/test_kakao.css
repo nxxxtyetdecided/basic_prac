@@ -1,0 +1,68 @@
+.background {
+    width: 480px;
+    height: 800px;
+    border: 1px solid;
+    /*position: relative;*/
+    margin: 0 auto; /* 상하 좌우*/
+}
+
+#top-box {
+    height: 500px;
+    background: #ffbed5;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    padding: 0 70px; /* 글씨가 꽉 차는 것을 방지 */
+}
+
+#line {
+    color: white;
+}
+
+#msg {
+    margin-top: 15px;
+    text-align: center;
+    color: white;
+}
+
+#img{
+    width: 100px;
+    height: 100px;
+    top: 450px; /* 총길이 - (이미지 크기/2) */
+    left: 365px; /* 이건 머냐....*/
+    position: absolute;
+    border: solid;
+    border-radius: 50%; /* 원 */
+}
+
+#bottom-box {
+    height: 300px; /* 총길이가 800이니까 800 - 500 */
+    /*padding: 0 100px;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; /* 프로필 명과 아래 기능들을 column 으로 배치 */
+
+}
+
+#images {
+    display: flex;
+    flex-direction: row;
+}
+
+.icons {
+    display: flex;
+    /*justify-content: center;*/
+    align-items: center; /* 그림과 설명의 줄맞춤 */
+    flex-direction: column;
+    padding: 0 10px;
+}
+
+.icon {
+    width: 55px;
+}
+
+
