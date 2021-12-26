@@ -1,92 +1,46 @@
-body{
-    max-width: 780px;
-    width: 70%;
-    height: 100%;
-    border: solid 3px;
-
-    margin: 0 auto;
-}
+body{ max-width: 720px; height: 100%; margin: 0 auto;}
 
 header{
-    height: 10%;
-    width: 100%;
+    max-width: 720px;
     background-color: white;
+    border-bottom: 1px solid lightgray;
 
     position: fixed;
     display: flex;
     justify-content: space-between;
-
-    border: solid 2px grey;
-
 }
 
-header .header_icon{
-    width: 10%;
-    height: 40%;
+header .header_icon{width: 5%; margin: 4% 3% 4% 3%;}
+header #logo{ width: 25%; margin: auto 0; }
 
-    margin: 4% 3% 4% 3%;
-}
+#main{ padding-top: 14%; padding-bottom: 6%;}
 
-header #logo{
-    width: 20%;
-    height: 70%;
-
-    margin: auto 0;
-}
-
-#storys{
-    margin-top: 14%;
-    margin-bottom: 1%;
-
-    display: flex;
-    justify-content: space-between;
-    border: solid indianred;
-}
-
+#storys{ display: flex; justify-content: space-between; border-bottom: 1px solid lightgray; }
 #storys .story{
-    width: 18%;
-    height: 10vh;
-    margin: 3% 0 3% 0;
-
     display: flex;
     flex-direction: column;
     align-items: center;
-
-
 }
-
-.story_img{
-    border-radius: 50%;
-    height: 90%;
-    width: 90%;
-}
-
-.main_post{
-    height: 15%;
-}
+.story_img{ border-radius: 50%; width: 40%; }
+.main_post{height: 15%;border-bottom: 1px solid lightgray;}
 
 .main_post #top_infos{
-    height: 5%;
     display: flex;
     justify-content: space-between;
-
-    border: darkblue 2px solid;
 }
-
 #top_infos .info{
     width: 15%;
 
     display: flex;
     flex-direction: column;
-    /*justify-content: center; !*more.png만 적용*!*/
+    justify-content: center; /*more.png만 적용*/
     align-items: center;
-    border: darkgoldenrod 2px solid;
 }
 
 #info_profile{
+    padding-top: 3%;
     border-radius: 50%;
-    width: 70%;
-    height: 70%;
+    width: 50%;
 }
 
 /*게시물*/
@@ -97,34 +51,29 @@ header #logo{
 
 #middle_buttons{
     margin: 2%;
-
     display: flex;
     justify-content: space-between;
 }
 
-#like{
-    height: 3%;
-    padding-left: 3%;
-    border: solid 1px red;
-}
-
-#comment_wrapper{
-    margin :1%
-}
-
-#comment_hour{
-    margin-left: 1%;
-}
+#like{ padding-left: 3%; }
+#comment_wrapper{margin :1%}
+#comment_hour{margin-left: 1%;}
 
 footer{
-    height: 10%;
-    position: fixed;
+    max-width: 720px;
+    width: 100%; /* 그림들의 크기가 작아 header와는 다르게 100% 적용 */
+    background-color: white;
+    border-bottom: 1px solid lightgray;
 
+    position: fixed;
     display: flex;
     justify-content: space-between;
+    bottom: 0; /* fixed를 사용했기 때문에 bottom 0 을 하지 않으면 보이지 않음 */
+}
 
-    margin: 2%;
-
-    /*position: fixed;*/
+footer img{
+    width: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 
