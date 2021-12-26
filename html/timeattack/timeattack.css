@@ -1,0 +1,26 @@
+*{
+    font-family: 'Song Myung', serif;
+}
+
+
+#background{
+    width: 80%;
+    height: 30%;
+    margin: 0 auto;
+
+    background-color: lightslategrey;
+    border: solid 2px;
+}
+
+
+
+.main{ padding: 5% }
+
+#title{ font-size: 50px;}
+#info{ font-size: 20px; margin-bottom: 2%}
+
+
+#select{
+    margin: 5%;
+}
+

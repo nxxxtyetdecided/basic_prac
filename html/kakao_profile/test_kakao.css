@@ -2,7 +2,7 @@
     width: 480px;
     height: 800px;
     border: 1px solid;
-    /*position: relative;*/
+    position: relative; /* 적용을 안하면 적용이 안되던데....*/
     margin: 0 auto; /* 상하 좌우*/
 }
 
@@ -32,7 +32,7 @@
     width: 100px;
     height: 100px;
     top: 450px; /* 총길이 - (이미지 크기/2) */
-    left: 365px; /* 이건 머냐....*/
+    left: 190px; /* 이건 머냐....*/
     position: absolute;
     border: solid;
     border-radius: 50%; /* 원 */

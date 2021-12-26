@@ -1,0 +1,130 @@
+body{
+    max-width: 780px;
+    width: 70%;
+    height: 100%;
+    border: solid 3px;
+
+    margin: 0 auto;
+}
+
+header{
+    height: 10%;
+    width: 100%;
+    background-color: white;
+
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+
+    border: solid 2px grey;
+
+}
+
+header .header_icon{
+    width: 10%;
+    height: 40%;
+
+    margin: 4% 3% 4% 3%;
+}
+
+header #logo{
+    width: 20%;
+    height: 70%;
+
+    margin: auto 0;
+}
+
+#storys{
+    margin-top: 14%;
+    margin-bottom: 1%;
+
+    display: flex;
+    justify-content: space-between;
+    border: solid indianred;
+}
+
+#storys .story{
+    width: 18%;
+    height: 10vh;
+    margin: 3% 0 3% 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.story_img{
+    border-radius: 50%;
+    height: 90%;
+    width: 90%;
+}
+
+.main_post{
+    height: 15%;
+}
+
+.main_post #top_infos{
+    height: 5%;
+    display: flex;
+    justify-content: space-between;
+
+    border: darkblue 2px solid;
+}
+
+#top_infos .info{
+    width: 15%;
+
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center; !*more.png만 적용*!*/
+    align-items: center;
+    border: darkgoldenrod 2px solid;
+}
+
+#info_profile{
+    border-radius: 50%;
+    width: 70%;
+    height: 70%;
+}
+
+/*게시물*/
+#post{
+    display: flex;
+    width: 100%;
+}
+
+#middle_buttons{
+    margin: 2%;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+#like{
+    height: 3%;
+    padding-left: 3%;
+    border: solid 1px red;
+}
+
+#comment_wrapper{
+    margin :1%
+}
+
+#comment_hour{
+    margin-left: 1%;
+}
+
+footer{
+    height: 10%;
+    position: fixed;
+
+    display: flex;
+    justify-content: space-between;
+
+    margin: 2%;
+
+    /*position: fixed;*/
+}
+
