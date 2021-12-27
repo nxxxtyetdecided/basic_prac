@@ -1,6 +1,6 @@
-body{ max-width: 720px; height: 100%; margin: 0 auto;}
+body{margin: 0 auto;}
 
-header{
+#header{
     max-width: 720px;
     background-color: white;
     border-bottom: 1px solid lightgray;
@@ -9,9 +9,8 @@ header{
     display: flex;
     justify-content: space-between;
 }
-
-header .header_icon{width: 5%; margin: 4% 3% 4% 3%;}
-header #logo{ width: 25%; margin: auto 0; }
+#header .header_icon{width: 5%; margin: 4% 3% 4% 3%;}
+#header #logo{ width: 25%; margin: auto 0; }
 
 #main{ padding-top: 14%; padding-bottom: 6%;}
 
@@ -77,3 +76,23 @@ footer img{
     padding-bottom: 1%;
 }
 
+@media screen and (max-width:720px){
+    #desktop_header {display: none;}
+}
+
+@media (min-width: 720px){
+    body{ margin: 0 auto;}
+    #header {display: none;}
+    #footer {display: none;}
+    #desktop_header{
+    width: 100%;
+    background-color: white;
+    border-bottom: 1px solid lightgray;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    }
+    #desktop_header #desktop_header_logo {width: 30%; }
+    #desktop_header #desktop_header_logo img{ width: 42%;}
+    #desktop_header #desktop_header_search {width: 30%;}
+}
