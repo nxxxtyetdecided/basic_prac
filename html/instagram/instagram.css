@@ -69,7 +69,7 @@ footer{
     justify-content: space-between;
     bottom: 0; /* fixed를 사용했기 때문에 bottom 0 을 하지 않으면 보이지 않음 */
 }
-/**/
+
 footer img{
     width: 5%;
     padding-top: 1%;
