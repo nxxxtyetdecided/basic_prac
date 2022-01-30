@@ -25,7 +25,6 @@ except ClientError as e:
   else: 
     print("Unknown error, exit..")
 
-    
 def main():
   response = create_s3_bucket("myfirstbucket-fsoftwareengineer")
   print("Bucket : " + str(response))
