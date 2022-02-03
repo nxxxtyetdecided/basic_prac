@@ -6,6 +6,7 @@ token_list = os.listdir(raw_path)  # 원본 이미지 경로 내 폴더들 list
 
 # 모든 이미지 resize 후 저장하기
 for token in token_list: # 이미지명을 하나씩 token에 불러옴
+    
     # 이미지 열기
     im = Image.open(raw_path+token)
 
