@@ -1,3 +1,6 @@
 test11 수정(브랜치 test11에서)
 브랜치 stock에서 수정
 stock에서 한번 더 숮정...
+
+conflict 해결을 위한 수정
+브랜치 변경하고 똑같은 부분 수정해서 conflict 만들기
