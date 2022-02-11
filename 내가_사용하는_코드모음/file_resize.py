@@ -15,4 +15,4 @@ for token in token_list: # 이미지명을 하나씩 token에 불러옴
 
     # 이미지 JPG로 저장
     im = im.convert('RGB')
-    im.save(raw_path +token)
+    im.save(raw_path +token) #
